@@ -1,6 +1,6 @@
 {
   "name": "hbs-html-tag-helpers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "hbs-html-tag-helpers.js",
   "devDependencies": {
     "grunt": "~0.4.1",
