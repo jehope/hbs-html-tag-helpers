@@ -1,6 +1,6 @@
 {
   "name": "hbs-html-tag-helpers",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "src/hbs-html-tag-helpers.js",
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -21,6 +21,6 @@
     "url": "https://github.com/jehope/hbs-html-tag-helpers.git"
   },
   "dependencies": {
-    "handlebars": "~1.1.2"
+    "hbsfy": "~1.0.0"
   }
 }
