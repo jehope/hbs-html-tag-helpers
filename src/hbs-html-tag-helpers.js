@@ -1,6 +1,6 @@
 'use strict';
 
-var Handlebars = require("handlebars-runtime");
+var Handlebars = require("handlebars");
 
 Handlebars.registerHelper('createTagBlock', function() {
 	if(this.tag === 'a') {
