@@ -5,14 +5,14 @@ Manipulate html structure with json data and handlebars.
 
 Example:
 Handlebars template
-'''html
+```html
 {{#each data}}
 	{{createTagBlock}} 
 {{/each}}
-'''
+```
 
 Data(json)
-'''javascript
+```javascript
 "data" : [
 	{ "tag" : "h1", "value" : "Email:"},
 	{ "tag" : "a" , "value" : "info@domain.com"},
@@ -23,4 +23,4 @@ Data(json)
 	{ "tag" : "p" , "value" : "929.333.1111"},
 	{ "tag" : "img", "value" : "http://placehold.it/1000x400&text=Image"}
 ]
-'''
+```
