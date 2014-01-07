@@ -32,6 +32,9 @@ module.exports = function (grunt) {
             }
         },
         browserify: {
+            options : {
+                transform : ['hbsfy']
+            },
             test: {
                 src  : ['test/test.js'],
                 dest : '.tmp/index.js',
